@@ -1,0 +1,8 @@
+items:
+  - name: Azure Dev CLI (azd) Reference
+    items:
+    - name: azd env
+      uid: azd_env
+    - name: azd infra
+      uid: azd_infra
+
