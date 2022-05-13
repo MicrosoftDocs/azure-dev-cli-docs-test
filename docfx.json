@@ -1,0 +1,16 @@
+{
+  "build": {
+    "content": [
+    ],
+    "resource": [
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "archive-template",
+    "markdownEngineName": "markdig"
+  }
+}
