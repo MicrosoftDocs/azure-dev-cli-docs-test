@@ -1,0 +1,68 @@
+### YamlMime:AzureCLIGroup
+uid: azd_infra
+name: azd infra
+summary: Manage Azure resources
+description: ''
+directCommands:
+- uid: az_infra_create
+  name: az infra create
+  summary: Creates Azure resources for an application
+  description: ''
+  syntax: >-
+    azd infra create [flags]
+  examples:
+  - summary: Create Azure resources for an application.
+    syntax: ---Need to get an example of this command---
+  optionalParameters:
+  - name: --help -h
+    summary: help for create
+    description: ''
+  - name: --no-progress
+    summary: Suppress progress information
+    description: ''
+  - name: --output -o
+    summary: Output format (supported formats are json, none)
+    description: ''
+  - name: --cwd -C
+    summary: Set the current working directory
+    description: ''
+  - name: --debug
+    summary: Enables debug/diagnostic logging
+    description: ''
+  - name: --environment -e
+    summary: The name of the environment to use
+    description: ''
+  - name: --no-prompt
+    summary: Accept default value instead of prompting, or fail if there is no default
+    description: ''
+- uid: az_infra_delete
+  name: az infra delete
+  summary: Deletes Azure resources for an application
+  description: ''
+  syntax: >-
+    azd infra delete [flags]
+  examples:
+  - summary: Create a web app with the default configuration.
+    syntax: az webapp create -g MyResourceGroup -p MyPlan -n MyUniqueAppName
+  optionalParameters:
+  - name: --force
+    summary: Do not require confirmation before deleting resources
+    description: ''
+  - name: --help -h
+    summary: help for delete
+    description: ''
+  - name: --purge
+    summary: Permanently delete resources which are soft-deleted by default (e.g. Key Vaults)
+    description: ''
+  - name: --cwd -C
+    summary: Set the current working directory
+    description: ''
+  - name: --debug
+    summary: Enables debug/diagnostic logging
+    description: ''
+  - name: --environment -e
+    summary: The name of the environment to use
+    description: ''
+  - name: --no-prompt
+    summary: Accept default value instead of prompting, or fail if there is no default
+    description: ''
